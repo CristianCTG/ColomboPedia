@@ -1,0 +1,111 @@
+.cardcontainerCart{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+.cardcontainerCart:hover{
+    box-shadow: 0 0 45px gray;
+}
+.photoCart{
+    height: 300px;
+    width: 100%;
+}
+.photoCart img{
+    height: 100%;
+    width: 100%;
+}
+.txt1Cart{
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+.contentCart{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -33px;
+}
+.photosCart{
+    width: 90px;
+    height: 30px;
+    background-color: #E74C3C;
+    color: white;
+    position: relative;
+    top: -30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.txt4Cart{
+    font-size:27px;
+    position: relative;
+    top: 33px;
+}
+.txt5Cart{
+    position: relative;
+    top: 18px;
+    color: #E74C3C;
+    font-size: 23px;
+}
+.txt2Cart{
+    position: relative;
+    top: 10px;
+}
+.cardcontainerCart:hover > .photoCart{
+    height: 200px;
+    animation: move1 0.5s ease both;
+}
+@keyframes move1{
+    0%{height: 300px}
+    100%{height: 200px}
+}
+.cardcontainerCart:hover > .contentCart{
+    height: 200px;
+}
+.footerCart{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    position: relative;
+    top: -15px;
+}
+.btnCart{
+    position: relative;
+    top: 20px;
+}
+#heart{
+    cursor: pointer;
+}
+.likeCart{
+    float: right;
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    color: #333333;
+}
+.fa-gratipayCart{
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.fa-gratipayCart:hover{
+    color: #E74C3C;
+}
+.txt3Cart{
+    color: gray;
+    position: relative;
+    top: 18px;
+    font-size: 14px;
+}
+.commentsCart{
+    float: right;
+    cursor: pointer;
+}
+.fa-clockCart, .fa-commentsCart{
+    margin-right: 7px;
+}

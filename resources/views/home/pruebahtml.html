@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <div class="card p-3" style="width: 900px">
+                    <div class="card-text">
+                        <h1 class="p-3" style="text-align: center">Publicar Libro</h1>
+                        <hr>
+                    </div>
+                    <form>
+                        <div>
+
+                            <div class="form-group">
+                                <label for="form3Example1">Titulo: </label>
+                                <input type="text" id="form3Example1" placeholder="Titulo del libro"
+                                    class="form-control" name="titulo" />
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form3Example2">Categoria: </label>
+                                <select class="form-control" id="form3Example2">
+                                    <option selected disabled>Elige una categoria</option>
+                                    <option value="Terror">Terror</option>
+                                    <option value="Romance">Romance</option>
+                                    <option value="Aventura">Aventura</option>
+                                    <option value="Ciencia Ficcion">Ciencia Ficcion</option>
+                                    <option value="Misterio">Misterio</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form3Example2">Descripcion: </label>
+                                <textarea name="comentarios" class="form-control" style="width: 100%; height: 100px;"
+                                    placeholder="Descripcion del libro"></textarea>
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div style="width: 50%; height: 200px;">
+                                    <img id="vistaPrevia" src="#" style="width: 100%; height: 200px;">
+                                    <input class="form-control" type="file" name="imagen" id="imagen">
+                                </div>
+
+                                <script src="{{url('assets/js/script.js')}}"></script>
+                            </div>
+                            <br><br><br>
+                            <div class="form-group">
+                                <button class="btn btn-success rounded-pill px-3">Agregar</button>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
